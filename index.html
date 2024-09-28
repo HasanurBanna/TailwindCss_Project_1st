@@ -1065,7 +1065,13 @@
     
     <!-- javaScript code -->
 
-    <script src="javaScript.js"></script>
+    <script>
+        const htmlTag = document.getElementById("htmlTag");
+
+document.getElementById("sun").addEventListener("click", function () {
+    htmlTag.classList.toggle("dark");
+})
+    </script>
      
     
 </body>
